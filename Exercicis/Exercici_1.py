@@ -2,6 +2,8 @@
 # // -> Dividir
 # % -> Residu de la divisio (en aquest cas sería el restant dels diners)
 
+#Fer un programa que donada una quantitat de diners en euros, sense decimals, digui quants bitllets de 500, de 200, de 100, de 50, de 20, de 10, de 5 i monedes de 2 i de 1 se li corresponen.
+
 euros = int(input("Write how many euros you have: ")) #variable d'entrada
 
 note500 = euros // 500 #divideix la quantitat d'euros per 500
