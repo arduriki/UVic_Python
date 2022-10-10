@@ -5,10 +5,9 @@ interval = 0
 measure = 0
 
 while count < 10:
+    measure = float(input("Write a measure number: "))
     if measure >= 0.9 and measure <= 1:
         interval = interval + 1
     count = count + 1
-    measure = float(input("Write a measure number: "))
     
 print(f"You have correct {interval} numbers")
-    

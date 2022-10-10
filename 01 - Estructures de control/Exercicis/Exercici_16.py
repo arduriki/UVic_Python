@@ -4,8 +4,8 @@ correct = 0
 t = float(input("Write a temperature: "))
 
 while t != 0:
+    t = float(input("Write a temperature: "))
     if t >= 1:
         correct = correct + 1
-    t = float(input("Write a temperature: "))
         
 print(f"You have {correct} positive temperatures")

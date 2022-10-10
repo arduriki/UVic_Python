@@ -5,8 +5,8 @@ repeat = 0
 quality = " "
 
 while quality != "*":
+    quality = input("Give me a quality product: ")
     if quality == first:
         repeat = repeat + 1
-    quality = input("Give me a quality product: ")
 
 print(f"You have {repeat} first quality products repeated")
